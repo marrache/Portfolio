@@ -4,12 +4,12 @@ Hi, how are you? I hope well! Welcome, this is my portfolio website, i am a begi
 ## Status: Developing ⚠️
 
 ### Some fields in my main Model is:
-+name
-+about me
-+contact me
-+my portfolio
-+social media
+*name
+*about me
+*contact me
+*my portfolio
+*social media
 
 ### This features are in developing
-+section services
-+sophistication of the website and color palette
+*section services
+*sophistication of the website and color palette
