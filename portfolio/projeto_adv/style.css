@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+} 
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/balanca-da-justica.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+  }

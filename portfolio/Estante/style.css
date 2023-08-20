@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+}
+/* corpo da aplicação */
+body {
+/* background */
+background-color: #F2E7DC;
+
+/* texto */
+color: #0d0d0d;
+text-align: justify;
+
+/* Alinhamento e tamanho */
+/* 1 rem = 16 px, tela media = 15 px, tela pequena = 14px*/
+width: 85%;
+margin: auto;
+
+}
+/* Seções de livros*/
+section {
+    /*Espaçamento dentro da seção*/
+padding: 64px 256px;
+
+}
+
+/*Estilizar nossa tabela*/
+table{
+    /*largura*/
+    width: 100%;
+}
+
+td{
+    background-color: #A9D9D0;
+    text-align: center;
+}
+
+td,th {
+   /*borda no formato shorthand*/
+    border: #000 solid 1px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+tr{
+    background-color: #038C7F;
+
+}
+
+a{
+    color: #F2E7DC;
+
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    color: #000;
+}
+h2{
+    text-align: center;
+}
+a:link{
+    color: #F2E7DC;
+}
+a:visited{
+    color:#95bfe8;
+}
+a:hover{
+    color: #025454;
+}
+a:active{
+    color:#0d0d0d;
+}
+img{
+    width: 300px;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+.bookTitle{
+    background-color: #A9d9d0;
+    color: #027373;
+    text-align: center;
+}
+#sectionHP,#sectionASS,#sectionACE {
+    background-color: #A9D9D0;
+}
+#header {
+    background-color: #038c7f;
+    color: #F2E7DC;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+#yourLibrary{
+    /*!important pode ser usado para sobescrever uma outra estilização*/
+    text-indent: 0px;
+    text-align: center;
+}
+#sumary {
+    background-color: #038c7f;
+    color: #F2E7DC;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    background-color: #038C7F;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}

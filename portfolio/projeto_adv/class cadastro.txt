@@ -1,0 +1,69 @@
+class cadastro{
+    var $funcoes_publicas = array( 
+        'enviar'	=> true
+    );
+    
+    w
+
+    }  
+    
+
+        $sql = "SELECT * FROM $usertable";
+        $result = mysqli_query($query);
+
+            if($result){
+                while($row = mysqli_fetch_array($result)){
+                $name = $row["$yourfield"];
+                echo "Name: ".$name."br/>";
+        }
+    }
+}
+
+            $hostname = "localhost";
+            $senha = "";
+            $banco = "projeto_clinica";
+            $usuario = "root";
+            
+            
+            $mysqli = new mysqli($hostname, $banco, $senha);
+                if ($msqli->connect_errno) {
+                    echo "Falha  ao conectar: (" . $msqli->connect_errno . ") " . $mysqli->connect_errno;
+            
+
+                }  
+
+   if(isset($_POST['nome']) && $_POST['nome'] != '') {
+    
+     $ret = new cadastro();
+     $ret->enviar();
+
+    }
+
+?>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./styles/style__cadastro.css">
+
+    <script type="text/javascript">
+        function submeter() {
+            if(document.cadastro.nome.value == "" ){
+                alert("Nome deve ser informado!");
+                return false;
+            }
+        
+            if(document.cadastro.email.value == "" ){
+                alert("email deve ser informado!");
+                return false;
+            }
+        
+            if(document.cadastro.telefone.value == "" ){
+                alert("telefone deve ser informado!");
+                return false;
+             }
+
+             document.cadastro.submit();
+
+        }     
+        
